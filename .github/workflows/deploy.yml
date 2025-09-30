@@ -1,0 +1,59 @@
+name: Deploy VitePress to GitHub Pages
+
+on:
+  push:
+    branches: [main] # se ejecuta al pushear a main
+  workflow_dispatch: # permite lanzarlo manualmente
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # necesario si usas lastUpdated en VitePress
+
+      - name: Instalar pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: pnpm
+
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+
+      - name: Construir con VitePress
+        run: |
+          pnpm run docs:build
+          touch docs/.vitepress/dist/.nojekyll
+
+      - name: Subir artefactos
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
