@@ -158,11 +158,11 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
             },
             {
               text: "20.2.01 Orden de abastecimiento",
-              link: "/flows/Mantenimiento/20.2.01-%20Orden%20de%20abastecimiento",
+              link: "/flows/Mantenimiento/20.2.01-Orden-de-abastecimiento_Markdown",
             },
             {
               text: "Detalle de Mantenimiento de Cubiertas",
-              link: "/flows/Mantenimiento/Detalle%20de%20Mantenimiento%20de%20Cubiertas",
+              link: "/flows/Mantenimiento/DetalledeMantenimientodeCubiertas",
             },
           ],
         },
