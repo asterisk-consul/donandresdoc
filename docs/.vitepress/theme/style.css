@@ -133,3 +133,9 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+.mermaid {
+  max-width: 100%;
+  height: auto;
+  overflow-x: auto;
+}

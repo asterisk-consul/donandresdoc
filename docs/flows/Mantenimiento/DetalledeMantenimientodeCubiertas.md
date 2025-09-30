@@ -1,4 +1,4 @@
-# Detalle de Mantenimiento de Cubiertas
+# 20.2.08 Mantenimiento de cubiertas
 
 ## Registro de Actividades (Montaje, Desmontaje, Rotación)
 

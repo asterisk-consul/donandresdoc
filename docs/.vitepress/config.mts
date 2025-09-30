@@ -149,20 +149,25 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
+              text: "Mantenimiento",
+              link: "/flows/Mantenimiento/",
+            },
+            {
               text: "20.1.01 Monitoreo - Check list",
               link: "/flows/Mantenimiento/20.1.01_Monitoreo-Checklist",
             },
-            {
-              text: "20.0.03 Control de Mantenimiento Planificado",
-              link: "/flows/Mantenimiento/20.0.03_ControldeMantenimientoPlanificado",
-            },
+
             {
               text: "20.2.01 Orden de abastecimiento",
               link: "/flows/Mantenimiento/20.2.01-Orden-de-abastecimiento_Markdown",
             },
             {
-              text: "Detalle de Mantenimiento de Cubiertas",
+              text: "20.2.08 Mantenimiento de cubiertas",
               link: "/flows/Mantenimiento/DetalledeMantenimientodeCubiertas",
+            },
+            {
+              text: "OT Verificacion",
+              link: "/flows/Mantenimiento/OT_Verificacion.md",
             },
           ],
         },
