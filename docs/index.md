@@ -8,7 +8,7 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: Flows
+      text: Flujos
       link: /flows/index.md
     - theme: alt
       text: Reportes

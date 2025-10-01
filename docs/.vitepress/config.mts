@@ -194,7 +194,7 @@ function sidebarCasosParticulares(): DefaultTheme.SidebarItem[] {
         { text: "Indice", link: "/casosParticulares/" },
         {
           text: "Cubiertas",
-          link: "/casosParticulares/cubiertas/Cubiertas",
+          link: "/CasosParticulares/cubiertas/Cubiertas",
         },
       ],
     },
