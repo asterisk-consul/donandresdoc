@@ -1,4 +1,3 @@
-````markdown
 # 📚 Guía de Instalación - Documentación VitePress
 
 Guía rápida para poner en marcha el proyecto de documentación.
@@ -17,7 +16,6 @@ Antes de empezar, asegúrate de tener instalado:
 ```bash
 cd ruta/del/proyecto
 ```
-````
 
 ### 2️⃣ Instalar todas las dependencias
 
