@@ -18,7 +18,7 @@ A["20.1.01 Monitoreo<br/>Checklist<br/>"]:::inicio --> B{"¿Qué vas<br/>a reali
     C --> D["20.2.09 Archivo Mant.<br/>Cubierta"]:::final
     B -->|Mantenimiento| E["20.2.01 Orden<br/>Abastec."]
     E --> F["20.2.04 OT<br/>Verific."]:::decision
-    F -->|No OK| G["20.2.02 OT<br/>Abierta"]
+    F -->|No OK| G["20.2.02 OT<br/>Abrir Nuevamente"]
     G --> F
     F -->|OK| H["Cerrar OT"]
     H --> I["20.2.06 Archivo Mant.<br/>Correct.<br/>"]:::final
@@ -35,9 +35,10 @@ classDef decision fill:#60a5fa,stroke:#3b82f6,stroke-width:2px,color:#000
 classDef final fill:#fb923c,stroke:#f97316,stroke-width:2px,color:#000
 
 click A "./20.1.01_Monitoreo-Checklist"
-click C "./DetalledeMantenimientodeCubiertas.md"
-click E "./20.2.01-Orden-de-abastecimiento_Markdown.md"
-click F "./OT_Verificacion.md"
+click C "./DetalledeMantenimientodeCubiertas"
+click E "./20.2.01-Orden-de-abastecimiento_Markdown"
+click F "./OT_Verificacion"
+click G "./abrirNuevamente"
 ```
 
 ## Resumen del Flujo de Mantenimiento
@@ -69,3 +70,4 @@ Para más detalle ver:
 - [20.2.03 Mantenimiento Cubiertas](./DetalledeMantenimientodeCubiertas.md)
 - [20.2.01 Orden de Abastecimiento](./20.2.01-Orden-de-abastecimiento_Markdown.md)
 - [20.2.04 OT Verificación](./OT_Verificacion.md)
+- [20.2.02 OT Abierta nuevamente](./abrirNuevamente.md)

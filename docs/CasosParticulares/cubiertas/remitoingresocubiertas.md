@@ -54,3 +54,9 @@ Al hacer clic en **AGREGAR**, se abrirá un ventana con titulo **"Agregar activi
 #### 3. **Finalizar el Remito:**
 
 - Una vez que todos los detalles estén cargados, haz clic en el botón azul **GUARDAR** en la parte superior derecha de la pantalla principal del **"Remito ingreso"** para consolidar y guardar todo el movimiento de stock.
+
+#### 4. Video tutorial
+
+<ClientOnly>
+    <lite-youtube videoid="yA7ilLmjay4" videotitle="Remito de ingreso"/>
+</ClientOnly>

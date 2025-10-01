@@ -40,3 +40,9 @@ El resto de la configuración se encuentra debajo de la sección de datos básic
 - Haz clic en el botón azul **GUARDAR** en la esquina superior derecha.
 
 Al hacer esto, el nuevo artículo ("Cubierta") quedará registrado en el sistema y automáticamente seleccionado en la ventana "Agregar actividad" del remito de ingreso, permitiendo continuar con el flujo original.
+
+### 4. Video tutorial
+
+<ClientOnly>
+    <lite-youtube videoid="OeYlw78g7Jo" videotitle="Cargar Articulos/Cubiertas"/>
+</ClientOnly>

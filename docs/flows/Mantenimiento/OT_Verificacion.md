@@ -112,4 +112,12 @@ En caso de que, durante la verificación, se detecten errores, tareas incompleta
 3. Una vez corregido, se repite el proceso de **Verificación de la OT (20.2.04)**.
 4. Si esta vez todo es correcto, se procede al **Cierre final** y al archivo correspondiente.
 
-> **Nota:** La reapertura de una OT debe quedar documentada en las observaciones, indicando el motivo del rechazo y las acciones a corregir.
+:::info
+**Nota:** La reapertura de una OT debe quedar documentada en las observaciones, indicando el motivo del rechazo y las acciones a corregir.
+:::
+
+## Video tutorial
+
+<ClientOnly>
+    <lite-youtube videoid="wftE05veJm4" videotitle="Flujo de carga de mantenimientos - 20.2.04 OT Verificación"/>
+</ClientOnly>

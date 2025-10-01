@@ -60,6 +60,12 @@ El registro de la actividad depende de la acción que se esté realizando:
 | **Estado:** **En Depósito**, **En Reparación** o **Baja** (según el destino)                   |
 | **Resultado:** Se registra el kilometraje de salida de la cubierta y se actualiza su ubicación |
 
+##### Video tutorial de rotacion
+
+<ClientOnly>
+    <lite-youtube videoid="R8rWXLf7MfU" videotitle="Flujo de carga de mantenimientos - 20.2.08 Mantenimiento de cubiertas"/>
+</ClientOnly>
+
 #### 3. Reparación
 
 ##### **Objetivo:** Colocar lo que se realizó
@@ -69,6 +75,12 @@ El registro de la actividad depende de la acción que se esté realizando:
 | **Cubierta:** Código de Activo de la cubierta que se desmonta.         |
 | **Estado:** **Recapada, En Reparación** o **Baja** (según el destino). |
 | **Resultado:** Se actualiza el estado del cubierta.                    |
+
+##### Video tutorial reparacion
+
+<ClientOnly>
+    <lite-youtube videoid="4H32o8537BA" videotitle="Flujo de carga de mantenimientos - 20.2.08 Mantenimiento de cubiertas"/>
+</ClientOnly>
 
 ### Funcionalidad Adicional: Cambio de Ubicación (El Lápiz)
 

@@ -157,10 +157,6 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: "Mantenimiento",
-              link: "/flows/Mantenimiento/",
-            },
-            {
               text: "20.1.01 Monitoreo - Check list",
               link: "/flows/Mantenimiento/20.1.01_Monitoreo-Checklist",
             },
@@ -174,8 +170,12 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
               link: "/flows/Mantenimiento/DetalledeMantenimientodeCubiertas",
             },
             {
+              text: "20.2.02 OT Abierta nuevamente",
+              link: "/flows/Mantenimiento/abrirNuevamente",
+            },
+            {
               text: "OT Verificacion",
-              link: "/flows/Mantenimiento/OT_Verificacion.md",
+              link: "/flows/Mantenimiento/OT_Verificacion",
             },
           ],
         },
@@ -195,6 +195,25 @@ function sidebarCasosParticulares(): DefaultTheme.SidebarItem[] {
         {
           text: "Cubiertas",
           link: "/CasosParticulares/cubiertas/Cubiertas",
+          collapsed: true,
+          items: [
+            {
+              text: "Ingreso - Crear Articulo/Cubierta",
+              link: "/CasosParticulares/cubiertas/crearcuiertas",
+            },
+            {
+              text: "Remito de ingreso",
+              link: "/CasosParticulares/cubiertas/remitoingresocubiertas",
+            },
+            {
+              text: "Mantenimientos varios",
+              link: "/flows/Mantenimiento/DetalledeMantenimientodeCubiertas",
+            },
+            {
+              text: "Remito de salida",
+              link: "/CasosParticulares/cubiertas/remitosalidacubiertas",
+            },
+          ],
         },
       ],
     },

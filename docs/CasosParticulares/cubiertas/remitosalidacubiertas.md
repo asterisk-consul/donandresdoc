@@ -65,3 +65,9 @@ Al hacer clic en **AGREGAR**, se abrirá la ventana **"Agregar actividad"**.
 ---
 
 👉 De esta manera, queda registrada formalmente la **salida de cubiertas**, asociada al cliente **Don Andres** (o al cliente/proveedor que corresponda).
+
+#### 4. Video tutorial
+
+<ClientOnly>
+    <lite-youtube videoid="gxXTA1YQkcA" videotitle="Remito de salida"/>
+</ClientOnly>
