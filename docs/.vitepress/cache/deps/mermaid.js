@@ -463,7 +463,7 @@ var detector5 = __name((txt) => {
   return /^\s*gitGraph/.test(txt);
 }, "detector");
 var loader5 = __name(async () => {
-  const { diagram: diagram2 } = await import("./gitGraphDiagram-7IBYFJ6S-ORB3Y6RL.js");
+  const { diagram: diagram2 } = await import("./gitGraphDiagram-7IBYFJ6S-7UGVU3SX.js");
   return { id: id5, diagram: diagram2 };
 }, "loader");
 var plugin5 = {
@@ -491,7 +491,7 @@ var detector7 = __name((txt) => {
   return /^\s*info/.test(txt);
 }, "detector");
 var loader7 = __name(async () => {
-  const { diagram: diagram2 } = await import("./infoDiagram-PH2N3AL5-MUSXO7MU.js");
+  const { diagram: diagram2 } = await import("./infoDiagram-PH2N3AL5-34DKPUPU.js");
   return { id: id7, diagram: diagram2 };
 }, "loader");
 var info = {
@@ -504,7 +504,7 @@ var detector8 = __name((txt) => {
   return /^\s*pie/.test(txt);
 }, "detector");
 var loader8 = __name(async () => {
-  const { diagram: diagram2 } = await import("./pieDiagram-IB7DONF6-SAGIIETR.js");
+  const { diagram: diagram2 } = await import("./pieDiagram-IB7DONF6-NKN7IR6H.js");
   return { id: id8, diagram: diagram2 };
 }, "loader");
 var pie = {
@@ -786,7 +786,7 @@ var detector23 = __name((txt) => {
   return /^\s*packet-beta/.test(txt);
 }, "detector");
 var loader23 = __name(async () => {
-  const { diagram: diagram2 } = await import("./diagram-VNBRO52H-YVG2TD5A.js");
+  const { diagram: diagram2 } = await import("./diagram-VNBRO52H-ZUI2PENL.js");
   return { id: id23, diagram: diagram2 };
 }, "loader");
 var packet = {
@@ -799,7 +799,7 @@ var detector24 = __name((txt) => {
   return /^\s*radar-beta/.test(txt);
 }, "detector");
 var loader24 = __name(async () => {
-  const { diagram: diagram2 } = await import("./diagram-SSKATNLV-VBIKTPP5.js");
+  const { diagram: diagram2 } = await import("./diagram-SSKATNLV-GXXVS6QC.js");
   return { id: id24, diagram: diagram2 };
 }, "loader");
 var radar = {
@@ -826,7 +826,7 @@ var detector26 = __name((txt) => {
   return /^\s*architecture/.test(txt);
 }, "detector");
 var loader26 = __name(async () => {
-  const { diagram: diagram2 } = await import("./architectureDiagram-IEHRJDOE-5J3LPGI3.js");
+  const { diagram: diagram2 } = await import("./architectureDiagram-IEHRJDOE-ZLMSRCLN.js");
   return { id: id26, diagram: diagram2 };
 }, "loader");
 var architecture = {

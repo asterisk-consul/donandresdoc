@@ -1,8 +1,8 @@
-# 📊 Reportes
+# Reportes
 
-## 🧑‍🏫 Manual de Uso
+## Manual de Uso
 
-### 📁 Secciones de Reportes
+### Secciones de Reportes
 
 - ⛽ [Cisterna](CisternaUsuario)
 - 📦 [Compras](COMPRAS_maestro)

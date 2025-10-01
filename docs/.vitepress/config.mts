@@ -15,17 +15,22 @@ export default withMermaid(
       plugins: [tailwindcss()],
     },
     themeConfig: {
+      logo: "/donandres.ico",
       nav: [
-        { text: "Home", link: "/" },
+        { text: "Inicio", link: "/" },
         { text: "Soporte", link: "https://surl.li/kmiuwb" },
       ],
       sidebar: {
         "/reportes/": sidebarReportes(),
         "/flows/": sidebarFlows(),
+        "/CasosParticulares/": sidebarCasosParticulares(),
       },
 
       socialLinks: [
-        { icon: "github", link: "https://github.com/vuejs/vitepress" },
+        {
+          icon: "github",
+          link: "https://github.com/asterisk-consul/donandresdoc",
+        },
       ],
 
       lastUpdated: {
@@ -57,6 +62,7 @@ function sidebarReportes(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Reportes",
+      link: "/reportes/",
       collapsed: false,
       items: [
         { text: "Indice", link: "/reportes/" },
@@ -105,7 +111,8 @@ function sidebarReportes(): DefaultTheme.SidebarItem[] {
 function sidebarFlows(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Flows",
+      text: "Flujos",
+      link: "/flows/",
       collapsed: false,
       items: [
         { text: "Inicio", link: "/flows/" },
@@ -146,6 +153,7 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "Mantenimiento",
+          link: "/flows/Mantenimiento/",
           collapsed: true,
           items: [
             {
@@ -170,6 +178,23 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
               link: "/flows/Mantenimiento/OT_Verificacion.md",
             },
           ],
+        },
+      ],
+    },
+  ];
+}
+
+function sidebarCasosParticulares(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Casos Particulares",
+      link: "/casosParticulares/",
+      collapsed: false,
+      items: [
+        { text: "Indice", link: "/casosParticulares/" },
+        {
+          text: "Cubiertas",
+          link: "/casosParticulares/cubiertas/Cubiertas",
         },
       ],
     },

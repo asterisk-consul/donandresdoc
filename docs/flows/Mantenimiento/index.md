@@ -1,8 +1,8 @@
 # Mantenimiento
 
-### El Flujo de Mantenimiento de Unidades y Cubiertas organiza todas las acciones desde la detección de una necesidad (checklist inicial) hasta el archivo final de la orden de trabajo.
+El Flujo de Mantenimiento de Unidades y Cubiertas organiza todas las acciones desde la detección de una necesidad (checklist inicial) hasta el archivo final de la orden de trabajo.
 
-#### Su propósito es:
+## Su propósito es:
 
 - Garantizar la trazabilidad de cada intervención, ya sea preventiva o correctiva.
 - Definir responsabilidades: el Operario de Mantenimiento ejecuta el trabajo, mientras que el Auxiliar Administrativo gestiona la documentación y abastecimiento.

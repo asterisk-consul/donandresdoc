@@ -13,10 +13,13 @@ hero:
     - theme: alt
       text: Reportes
       link: /reportes/index.md
+    - theme: alt
+      text: Casos Particulares
+      link: /CasosParticulares/index.md
 
   image:
-    src: /LogoFlows.png
-    alt: VitePress
+    src: /LogoDon.webp
+    alt: logodonandres
 
 features:
   - title: Feature A
