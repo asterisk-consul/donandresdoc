@@ -112,6 +112,10 @@ function sidebarReportes(): DefaultTheme.SidebarItem[] {
               text: "Cisterna",
               link: "/reportes/CisternaTecnico",
             },
+            {
+              text: "Mantenimiento",
+              link: "/docTecnica/mantenimiento/",
+            },
           ],
         },
         {
