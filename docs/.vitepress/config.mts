@@ -74,14 +74,18 @@ function sidebarReportes(): DefaultTheme.SidebarItem[] {
               text: "Compras",
               link: "/reportes/COMPRAS_maestro",
             },
+            {
+              text: "Cisterna",
+              link: "/reportes/CisternaUsuario",
+            },
             { text: "RemitosVSCompras", link: "/reportes/RemitosVsCompras" },
             {
               text: "Sueldos",
               link: "/reportes/manual_usuario_rhsueldos",
             },
             {
-              text: "Cisterna",
-              link: "/reportes/CisternaUsuario",
+              text: "Trazabilidad de Cubiertas",
+              link: "/reportes/trazabilidadCubiertas/",
             },
           ],
         },
