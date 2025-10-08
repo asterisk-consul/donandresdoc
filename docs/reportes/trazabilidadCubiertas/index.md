@@ -55,7 +55,7 @@ Cada fila representa un evento o movimiento en la vida útil de la cubierta:
 
 ## 3. Botón **“Ver más”**
 
-En algunos registros aparece la opción **VER MÁS**, que permite desplegar información adicional sobre ese movimiento (ejemplo: detalles de órdenes, vehículos involucrados, etc.) [Ver Reporte de detalles](../../reportes/detallesMantenimientosCubiertas/).
+En algunos registros aparece la opción **VER MÁS**, que permite desplegar información adicional sobre ese movimiento (ejemplo: detalles de órdenes, vehículos involucrados, etc.) [Ver Reporte de detalles](../../reportes/mantenimientoCubiertas/mantenimientosCubiertasDetalles.md).
 
 ## 4. Interpretación del reporte
 

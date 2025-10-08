@@ -78,6 +78,21 @@ function sidebarReportes(): DefaultTheme.SidebarItem[] {
               text: "Cisterna",
               link: "/reportes/CisternaUsuario",
             },
+            {
+              text: "Depositos Cubiertas",
+              link: "/reportes/depositosCubiertas/",
+            },
+            {
+              text: "Mantenimiento de Cubiertas",
+              link: "/reportes/mantenimientoCubiertas/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Detalles de Mantenimiento de Cubiertas",
+                  link: "/reportes/mantenimientoCubiertas/mantenimientosCubiertasDetalles",
+                },
+              ],
+            },
             { text: "RemitosVSCompras", link: "/reportes/RemitosVsCompras" },
             {
               text: "Sueldos",

@@ -2,13 +2,16 @@
 
 ## Manual de Uso
 
-### Secciones de Reportes
+### 📊 Secciones de Reportes
 
-- ⛽ [Cisterna](CisternaUsuario)
 - 📦 [Compras](COMPRAS_maestro)
+- ⛽ [Cisterna](CisternaUsuario)
+- 📦📑 [Depositos de Cubiertas](./depositosCubiertas/)
+- 🛠️ [Mantenimiento de Cubiertas](./mantenimientoCubiertas/)
 - 📑 [Remito Vs Compras](RemitosVsCompras)
+- 🔗 [Trazabilidad de Cubiertas](./trazabilidadCubiertas/)
 
 ### 🔍 Filtros Disponibles
 
-- 📆 [Filtro de Fechas](ComportamientoFiltroFechas)
 - 🔎 [Búsqueda Parcial](BusquedaParcial)
+- 📆 [Filtro de Fechas](ComportamientoFiltroFechas)
