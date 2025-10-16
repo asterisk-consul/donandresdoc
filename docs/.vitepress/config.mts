@@ -166,11 +166,12 @@ function sidebarFlows(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "Compras",
+          link: "/flows/compras/",
           collapsed: true,
           items: [
             {
-              text: "Hallazgos",
-              link: "/flows/PM_Hallazgos/hallazgo",
+              text: "10.1.01 Exportar Compras_erp",
+              link: "/flows/compras/10-1-01-Exportar-Compras-erp.md",
             },
           ],
         },
