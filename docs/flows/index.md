@@ -2,4 +2,4 @@
 
 [Mantenimiento](./Mantenimiento/)
 
-[Compras](./compras)
+[Compras](./compras/)

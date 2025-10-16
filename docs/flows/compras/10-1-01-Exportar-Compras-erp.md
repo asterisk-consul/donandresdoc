@@ -70,7 +70,7 @@ Antes de subir el archivo a Flow:
 
 Este paso alimenta el proceso principal:
 
-📄 [Flujo de Compras General](./10.1.00_Flujo-de-Compras.md)
+📄 [Flujo de Compras General](../compras/)
 
 ---
 

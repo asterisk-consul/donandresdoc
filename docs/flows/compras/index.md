@@ -56,5 +56,5 @@ El objetivo es integrar la información de compras al flujo de trabajo y actuali
 
 ## Requisitos previos
 
-1. El archivo debe haberse generado desde el ERP conforme al procedimiento [10.1.01 Exportar Compras – ERP](./10.1.01_Exportar_Compras_erp.md).
+1. El archivo debe haberse generado desde el ERP conforme al procedimiento [10.1.01 Exportar Compras – ERP](./10-1-01-Exportar-Compras-erp.md).
 2. El archivo CSV debe estar **guardado en la carpeta de Google Drive compartida**:
